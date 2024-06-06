@@ -429,8 +429,8 @@ function showLCDMenu() {
     /*LANG*/'LCD Timeout': {
       value: settings.timeout,
       min: 0,
-      max: 60,
-      step: 5,
+      max: 30,
+      step: 3,
       onchange: v => {
         settings.timeout = 0 | v;
         updateSettings();
